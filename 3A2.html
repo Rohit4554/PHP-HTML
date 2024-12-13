@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Operations</title>
+</head>
+<body>
+
+    <form method="post" action="3A2.php">
+        <label>Enter a string:</label><br>
+
+        <input type="text" id="inputString" name="inputString" required><br><br>
+
+        <b><label>Select an operation:</label><b><br>
+            
+        <label>
+          <input type="radio" name="operation" value="length" required> Find length
+        </label>
+        <br>
+        <label>
+        <input type="radio"  name="operation" value="vowels">Count Vowels
+        </label>
+        <br>
+        <label>
+        <input type="radio" id="lower_title" name="operation" value="lower_title"> Convert to Lowercase and Title Case
+        </label>
+        <br>
+        <label>
+        <input type="radio"  name="operation" value="pad"> Pad with Asterisks
+        </label>
+        <br>
+        <label>
+        <input type="radio"  name="operation" value="remove_whitespace"> Remove Leading Whitespaces
+        </label>
+        <br>
+        <label>
+        <input type="radio"  name="operation" value="reverse"> Find Reverse
+        </label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+    </form>
+</body>
+</html>
